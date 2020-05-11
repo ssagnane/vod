@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Titre recherche un film</title>
+		<link rel="stylesheet" href="style/vod.css">
+	</head>
+	<body>
+		<!-- Site navigation menu -->
+		<ul class="navbar">
+			<li><a href="vod.html">Accueil</a>
+			<li><a href="consulterFilms.php">Consulter un film</a>
+			<li><a href="saisieTitreRecherche.html">Rechercher un film</a>
+			<li><a href="saisieFilm.html">Ajouter un film</a>
+			<li><a href="saisieTitreSuppression.html">Supprimer un film</a>
+		</ul>
+		<h1>VOD</h1>
+		<form action="rechercherFilm.php" method="POST" name="recherche" >
+			<legend>Films</legend>
+			<input type="search" name="nomFilm" id="maRecherche" size="50" placeholder="Rechercher un film, une série, une star..."/>
+			<input type="submit" name ="valider" value ="rechercher">
+		</form>
+	</body>
+</html>

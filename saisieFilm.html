@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<!-- SI6 -->
+	<head>
+		<title>SI6 - Fichiers texte</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="style/vod.css">
+	</head>
+	<body>
+		<!-- Site navigation menu -->
+		<ul class="navbar">
+			<li><a href="vod.html">Accueil</a>
+			<li><a href="consulterFilms.php">Consulter un film</a>
+			<li><a href="saisieTitreRecherche.html">Rechercher un film</a>
+			<li><a href="saisieFilm.html">Ajouter un film</a>
+			<li><a href="saisieTitreSuppression.html">Supprimer un film</a>
+		</ul>
+		<h1>VOD</h1>
+		<h2>Ajouter un films</h2>
+			<b><legend>Films</legend></b>
+			<br/>
+			<form action="ajouterFilm.php" method="POST" name="ajtFilm">
+				<label>Titre du film:</label>
+				<input required type="text" name="titre" size="50" placeholder="Veuillez saisir un nom du film" />
+				<br/>
+				
+				<label>Année du film:</label>
+				<input required type="text" name="annee" size="50" placeholder="Veuillez saisir l'année" />
+				<br/>
+				
+				<label>Réalisateur du film:</label>
+				<input required type="text" name="realisateur" size="50" placeholder="Veuillez saisir le nom du réalisateur" />
+				<br/>
+				<br/>
+				<input type="submit" name ="valider" value ="Ajouter">
+				<input type="reset" name ="recommencer" value ="Recommencer">
+			</form>
+	</body>
+</html>

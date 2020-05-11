@@ -1,0 +1,21 @@
+body{
+	padding-left: 11em;
+	color: orange;
+	background-color: #000000 }
+ul.navbar {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 2em;
+	left: 1em;
+	width: 9em }
+ul.navbar li {
+	background: #4D4D4D;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid orange }
+label {
+	display: block;
+	width: 150px; 
+	float: left; }
